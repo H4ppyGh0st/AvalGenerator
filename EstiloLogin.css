@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #515151;
+    background: linear-gradient(to right, #d2cd73, #a98da1);
+}
+.bg{
+    background-image: url(benkos2.jfif);
+    background-position: center center;
+}
+
+
+
+

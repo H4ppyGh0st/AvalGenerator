@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ready PDF</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="EstiloLogin.css">
+
+</head>
+
+<body>
+
+
+    <div class="container w-75 bg-light mt-5 rounded">
+        <div class="row align-items-stretch">
+            <div class="col bg d-none d-lg-block"></div>
+            
+            <div class="col">
+                <h3 class="fw-bold py-5 ">Inicio de Sesión</h3>
+                <div class="mb-4 ">
+                    <label for="labelNombre" class="form-label">Dirección De Correo</label>
+                    <input type="text" class="form-control" id="DirecciónCorreo" v-model="DirecciónCorreo">
+                  </div>
+                <div class="mb-4 ">
+                    <label for="labelNombre" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="Contraseña" v-model= "Contraseña">
+                </div>
+                <div class="d-grid py-5">
+                    <button class="btn btn-success" type="button">Iniciar Sesión</button>
+                    
+                  </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Boostrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
